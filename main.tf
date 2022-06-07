@@ -57,7 +57,7 @@ module "postgresql" {
   geo_redundant_backup_enabled  = false
   administrator_login           = "azureuser"
   administrator_password        = "Azur3us3r!"
-  server_version                = "9.5"
+  server_version                = "11"
   ssl_enforcement_enabled       = true
   db_names                      = var.db_names
   db_charset                    = "UTF8"
